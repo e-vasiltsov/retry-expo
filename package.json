@@ -1,0 +1,37 @@
+{
+  "author": "Yevgen Vasiltsov <eugenevasilsov@gmail.com>",
+  "name": "retry",
+  "version": "1.0.0",
+  "description": "A utility for retrying operations with configurable intervals, exponential backoff, and maximum retries.",
+  "main": "dist/index.js",
+  "keywords": [
+    "retry",
+    "backoff",
+    "exponential",
+    "operation",
+    "utility"
+  ],
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll",
+    "build": "rimraf ./dist && tsc ",
+    "lint": "eslint src/ --fix",
+    "commitlint": "commitlint --edit"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-typescript": "^7.22.15",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0",
+    "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.1",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
