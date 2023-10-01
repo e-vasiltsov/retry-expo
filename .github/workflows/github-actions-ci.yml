@@ -26,3 +26,9 @@ jobs:
 
     - name: Run lint
       run: npm run lint
+
+    - name: Release on main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      if: github.ref == 'refs/heads/main'
+      run: npm run release

@@ -17,7 +17,7 @@
     "build": "rimraf ./dist && tsc ",
     "lint": "eslint src/ --fix",
     "commitlint": "commitlint --edit",
-    "release": "release-it"
+    "release": "release-it --ci"
   },
   "license": "MIT",
   "devDependencies": {
