@@ -1,7 +1,7 @@
 {
   "author": "Yevgen Vasiltsov <eugenevasilsov@gmail.com>",
   "name": "retry",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility for retrying operations with configurable intervals, exponential backoff, and maximum retries.",
   "main": "dist/index.js",
   "keywords": [
